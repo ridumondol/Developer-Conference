@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*navbar design*/
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 65px;
+    align-items:center;
+}
+.navbar ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.common-button{
+    background-color:#1D4ED8;
+    font-weight:bold;
+    color:#FFFFFF;
+    padding:9px 18px;
+    border-style:none;
+    border-radius:10px;
+}
+/*Nav bar  design end*/
+
