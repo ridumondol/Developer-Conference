@@ -144,18 +144,24 @@ ul{
     border-radius:12px;
     padding:30px;
     margin-top:30px;
+    flex:1;
+    max-width:300px;
 }
 .card-2{
     background-color:#0D1B2A;
     border-radius:12px;
     padding:30px;
     margin-top:30px;
+    flex:1;
+    max-width:300px;
 }
 .card-3{
     border:1px solid black;
     border-radius:12px;
     padding:30px;
     margin-top:30px;
+    flex:1;
+    max-width:300px;
 }
 .standard-outline-1{
     background-color:#FFFFFF;
@@ -256,12 +262,6 @@ div ul li{
 }
 
 /* Reset / Core Architecture */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: var(--font-sans);
     background-color: var(--bg-main);
