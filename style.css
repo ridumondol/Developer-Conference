@@ -745,7 +745,30 @@ body {
     }
 }
 /*Event Schedule Section end */
+/*footer*/
+footer{
+    background-color:#0D1B2A;
+    padding:35px;
 
+}
+.removebg img{
+    max-width: 26px;
+    max-height:26px;
+}
+.footer-design{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:10px;
+}
+.privacy{
+    display:flex;
+    justify-content:space-between;
+}
+.privacy-bottom{
+    display:flex;
+    justify-content: space-between;
+}
+/*footer end*/
 
 
 
