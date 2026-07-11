@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /*navbar design*/
 nav {
     display: flex;
@@ -29,6 +30,7 @@ a {
     padding: 9px 18px;
     border-style: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 /*Nav bar  design end*/
@@ -113,5 +115,123 @@ div h3{
     font-weight:bold;
 }
 /*Meet the Speakers Section end*/
+/*Secure Your Spot section*/
+.sport-heading{
+    text-align:center;
+    padding-top:135px;
+}
+.sport-heading h1{
+    color:#0D1B2A;
+    font-weight:bold;
+    font-size:48px;
+}
+.sport-heading p{
+    color:#575757;
+    font-size:16px;
+}
+ul{
+    list-style-type:disc;
+    margin-left:20px;
+}
+.Spot-section{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    
+}
+.card-1{
+    border:1px solid #888888;
+    border-radius:12px;
+    padding:30px;
+    margin-top:30px;
+    margin-left:280px;
+}
+.card-2{
+    background-color:#0D1B2A;
+    border-radius:12px;
+    padding:30px;
+    margin-top:30px;
+}
+.card-3{
+    border:1px solid black;
+    border-radius:12px;
+    padding:30px;
+    margin-top:30px;
+    margin-right:280px;
+}
+.standard-outline-1{
+    background-color:#FFFFFF;
+    font-weight: bold;
+    color:#2563EB;
+    padding: 9px 18px;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border:1px solid #2563EB;
+    margin-top:20px;
+    align-items: center;
+    width:240px;
+
+}
+.standard-outline-2{
+    background-color:#FFFFFF;
+    font-weight: bold;
+    color: #0D1B2A;
+    padding: 9px 18px;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border:1px solid #0D1B2A;
+    margin-top:20px;
+    align-items: center;
+    width:240px;
+}
+#get-pro{
+    margin-top:20px;
+    align-items: center;
+    width:240px;
+}
+.price{
+    padding-bottom:30px;
+}
+.up{
+    color:#888888;
+    font-size:13px;
+    font-weight:600px;
+    text-transform:uppercase;
+}
+.low{
+    text-transform:lowercase;
+    color:#888888;
+    font-size:13px;
+    font-weight:600px;
+}
+.font{
+    font-family: "Inter", sans-serif;
+}
+.font h1{
+    color:#0D1B2A;
+    font-weight:bold;
+    font-size:44px;
+}
+.price .main-price{
+    color:#FFFFFF;
+}
+.pro{
+    color:#FFFFFF;
+}
+#blue-color{
+    color:#93C5FD;
+}
+span{
+    border:1px solid black;
+}
+div ul li{
+    padding-top:14px;
+}
+/*Secure Your Spot section end*/
+
+
+
 
 
