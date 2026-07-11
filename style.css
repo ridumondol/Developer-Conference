@@ -68,3 +68,50 @@ a {
     text-align: center;
     padding-top: 250px;
 }
+/*Hero section design End*/
+/*Meet the Speakers Section*/
+.Speakers-Section{
+    font-family: "Inter", sans-serif;
+    text-align:center;
+    
+}
+.Speakers-Section h1{
+    text-align:center;
+    padding:50px;
+    font-weight:bold;
+}
+.Speakers{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:25px;
+    margin-left:60px;
+    margin-right:60px;
+    
+}
+.Speakers-box img{
+    width:100%;
+    border-top: #bc1818;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.Speakers-box{
+    text-align:left;
+    border:1px solid black;
+    border-radius:8px;
+}
+.Speakers-box .skill{
+    color:#1D4ED8;
+    padding-left:20px;
+    font-weight:bold;
+}
+.work{
+    padding-left:20px;
+    padding-bottom:22px;
+}
+div h3{
+    padding-left:20px;
+    font-weight:bold;
+}
+/*Meet the Speakers Section end*/
+
+
