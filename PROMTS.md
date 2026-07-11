@@ -1,0 +1,1 @@
+Build responsive Event Schedule, Testimonials, FAQ, Venue, and Newsletter sections using only HTML5 and CSS3. Keep HTML and CSS separate. Use semantic HTML, Flexbox, and CSS Grid. No JavaScript, Bootstrap, Tailwind CSS, or external libraries.
