@@ -39,9 +39,9 @@ a {
 .hero-design {
     width: 100%;
     height: 600px;
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./assets/banner.jpg");
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./assets/banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -55,184 +55,214 @@ a {
     padding-top: 100px;
     padding-right: 50px;
     padding-left: 50px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .paragraph {
     text-align: center;
     color: #FFFFFF;
-    font-size:14px;
+    font-size: 14px;
     padding: 15px 345px;
-    
+
 }
 
 .common-button-reg {
     text-align: center;
     padding-top: 250px;
 }
+
 /*Hero section design End*/
 /*Meet the Speakers Section*/
-.Speakers-Section{
+.Speakers-Section {
     font-family: "Inter", sans-serif;
-    text-align:center;
-    
+    text-align: center;
+
 }
-.Speakers-Section h1{
-    text-align:center;
-    padding:50px;
-    font-weight:bold;
+
+.Speakers-Section h1 {
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
 }
-.Speakers{
-    display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    gap:25px;
-    margin-left:60px;
-    margin-right:60px;
-    
+
+.Speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+
 }
-.Speakers-box img{
-    width:100%;
+
+.Speakers-box img {
+    width: 100%;
     border-top: #bc1818;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.Speakers-box{
-    text-align:left;
-    border:1px solid black;
-    border-radius:8px;
+
+.Speakers-box {
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 8px;
 }
-.Speakers-box .skill{
-    color:#1D4ED8;
-    padding-left:20px;
-    font-weight:bold;
+
+.Speakers-box .skill {
+    color: #1D4ED8;
+    padding-left: 20px;
+    font-weight: bold;
 }
-.work{
-    padding-left:20px;
-    padding-bottom:22px;
+
+.work {
+    padding-left: 20px;
+    padding-bottom: 22px;
 }
-div h3{
-    padding-left:20px;
-    font-weight:bold;
+
+div h3 {
+    padding-left: 20px;
+    font-weight: bold;
 }
+
 /*Meet the Speakers Section end*/
 /*Secure Your Spot section*/
-.sport-heading{
-    text-align:center;
-    padding-top:135px;
+.sport-heading {
+    text-align: center;
+    padding-top: 135px;
 }
-.sport-heading h1{
-    color:#0D1B2A;
-    font-weight:bold;
-    font-size:48px;
-}
-.sport-heading p{
-    color:#575757;
-    font-size:16px;
-}
-ul{
-    list-style-type:disc;
-    margin-left:20px;
-}
-.Spot-section{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    
-}
-.card-1{
-    border:1px solid #888888;
-    border-radius:12px;
-    padding:30px;
-    margin-top:30px;
-    flex:1;
-    max-width:300px;
-}
-.card-2{
-    background-color:#0D1B2A;
-    border-radius:12px;
-    padding:30px;
-    margin-top:30px;
-    flex:1;
-    max-width:300px;
-}
-.card-3{
-    border:1px solid black;
-    border-radius:12px;
-    padding:30px;
-    margin-top:30px;
-    flex:1;
-    max-width:300px;
-}
-.standard-outline-1{
-    background-color:#FFFFFF;
+
+.sport-heading h1 {
+    color: #0D1B2A;
     font-weight: bold;
-    color:#2563EB;
+    font-size: 48px;
+}
+
+.sport-heading p {
+    color: #575757;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.Spot-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card-1 {
+    border: 1px solid #888888;
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 30px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.card-2 {
+    background-color: #0D1B2A;
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 30px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.card-3 {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 30px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.standard-outline-1 {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    color: #2563EB;
     padding: 9px 18px;
     border-style: none;
     border-radius: 8px;
     cursor: pointer;
-    border:1px solid #2563EB;
-    margin-top:20px;
+    border: 1px solid #2563EB;
+    margin-top: 20px;
     align-items: center;
-    width:240px;
+    width: 240px;
 
 }
-.standard-outline-2{
-    background-color:#FFFFFF;
+
+.standard-outline-2 {
+    background-color: #FFFFFF;
     font-weight: bold;
     color: #0D1B2A;
     padding: 9px 18px;
     border-style: none;
     border-radius: 8px;
     cursor: pointer;
-    border:1px solid #0D1B2A;
-    margin-top:20px;
+    border: 1px solid #0D1B2A;
+    margin-top: 20px;
     align-items: center;
-    width:240px;
+    width: 240px;
 }
-#get-pro{
-    margin-top:20px;
+
+#get-pro {
+    margin-top: 20px;
     align-items: center;
-    width:240px;
+    width: 240px;
 }
-.price{
-    padding-bottom:30px;
+
+.price {
+    padding-bottom: 30px;
 }
-.up{
-    color:#888888;
-    font-size:13px;
-    font-weight:600px;
-    text-transform:uppercase;
+
+.up {
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600px;
+    text-transform: uppercase;
 }
-.low{
-    text-transform:lowercase;
-    color:#888888;
-    font-size:13px;
-    font-weight:600px;
+
+.low {
+    text-transform: lowercase;
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600px;
 }
-.font{
+
+.font {
     font-family: "Inter", sans-serif;
 }
-.font h1{
-    color:#0D1B2A;
-    font-weight:bold;
-    font-size:44px;
+
+.font h1 {
+    color: #0D1B2A;
+    font-weight: bold;
+    font-size: 44px;
 }
-.price .main-price{
-    color:#FFFFFF;
+
+.price .main-price {
+    color: #FFFFFF;
 }
-.pro{
-    color:#FFFFFF;
+
+.pro {
+    color: #FFFFFF;
 }
-#blue-color{
-    color:#93C5FD;
+
+#blue-color {
+    color: #93C5FD;
 }
-span{
-    border:1px solid black;
+
+span {
+    border: 1px solid black;
 }
-div ul li{
-    padding-top:14px;
+
+div ul li {
+    padding-top: 14px;
 }
+
 /*Secure Your Spot section end*/
 /* ==========================================================================
    Design Token Engine & Variables
@@ -249,15 +279,15 @@ div ul li{
     --text-muted: #64748b;
     --border-color: #e2e8f0;
     --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    
+
     --radius-lg: 16px;
     --radius-md: 8px;
     --radius-sm: 4px;
-    
+
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.02);
     --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
     --shadow-lg: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.08);
-    
+
     --timing: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -316,9 +346,21 @@ body {
     letter-spacing: 0.05em;
     border-radius: 50px;
 }
-.badge-primary { background-color: #eff6ff; color: var(--brand); }
-.badge-secondary { background-color: #f5f3ff; color: var(--accent); }
-.badge-success { background-color: #ecfdf5; color: var(--success); }
+
+.badge-primary {
+    background-color: #eff6ff;
+    color: var(--brand);
+}
+
+.badge-secondary {
+    background-color: #f5f3ff;
+    color: var(--accent);
+}
+
+.badge-success {
+    background-color: #ecfdf5;
+    color: var(--success);
+}
 
 /* ==========================================================================
    1. Event Schedule Section Layout (Timeline Pattern via Flexbox)
@@ -562,7 +604,8 @@ body {
     font-weight: 600;
     color: var(--text-primary);
     cursor: pointer;
-    list-style: none; /* Strips default marker styling block */
+    list-style: none;
+    /* Strips default marker styling block */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -584,7 +627,8 @@ body {
 }
 
 .faq-trigger::-webkit-details-marker {
-    display: none; /* Direct legacy support styling strip */
+    display: none;
+    /* Direct legacy support styling strip */
 }
 
 .faq-content {
@@ -683,19 +727,20 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
-    
+
     .venue-layout {
         gap: 40px;
     }
-    
+
     .newsletter-card {
         flex-direction: column;
         align-items: stretch;
         gap: 32px;
         padding: 48px;
     }
-    
-    .newsletter-content, .newsletter-action {
+
+    .newsletter-content,
+    .newsletter-action {
         max-width: 100%;
     }
 }
@@ -705,7 +750,7 @@ body {
     .section {
         padding: 64px 0;
     }
-    
+
     .section-title {
         font-size: 1.85rem;
     }
@@ -722,12 +767,12 @@ body {
         justify-content: space-between;
         min-width: 100%;
     }
-    
+
     .venue-layout {
         grid-template-columns: 1fr;
         gap: 48px;
     }
-    
+
     .venue-map {
         height: 320px;
     }
@@ -735,40 +780,44 @@ body {
     .testimonials-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .newsletter-form {
         flex-direction: column;
     }
-    
+
     .newsletter-submit {
         width: 100%;
     }
 }
+
 /*Event Schedule Section end */
 /*footer*/
-.copy-right{
-    background-color:#0D1B2A;
-    padding:35px;
+.copy-right {
+    background-color: #0D1B2A;
+    padding: 35px;
+    color:#FFFFFF;
 
 }
-.removebg img{
+
+.removebg img {
     max-width: 26px;
-    max-height:26px;
+    max-height: 26px;
 }
-.footer-design{
-    display:flex;
+
+.footer-design {
+    display: flex;
     justify-content: space-between;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
-.privacy{
-    display:flex;
-    justify-content:space-between;
-}
-.privacy-bottom{
-    display:flex;
+
+.privacy {
+    display: flex;
     justify-content: space-between;
 }
+
+.privacy-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
 /*footer end*/
-
-
-
