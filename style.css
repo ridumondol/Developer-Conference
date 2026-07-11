@@ -68,7 +68,7 @@ a {
 
 .common-button-reg {
     text-align: center;
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
 /*Hero section design End*/
@@ -818,6 +818,7 @@ body {
 .privacy-bottom {
     display: flex;
     justify-content: space-between;
+    gap:20px;
 }
 
 /*footer end*/
