@@ -10,7 +10,7 @@ The website represents **DevConf 2026**, a fictional developer conference featur
 
 ## 📸 Project Preview
 
-![DevConf 2026 Preview](./assets/screenshot.png)
+![DevConf 2026 Preview](./DevConf.png)
 
 > Replace `./assets/screenshot.png` with your actual screenshot path.
 
